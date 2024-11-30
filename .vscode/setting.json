@@ -1,0 +1,44 @@
+{
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "xml",
+    "gql",
+    "graphql",
+    "css",
+    "pcss",
+    "postcss"
+  ],
+
+  "editor.quickSuggestions": { "strings": true },
+  "css.validate": false,
+  "postcss.validate": false,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "cSpell.ignorePaths": [
+    "**/pnpm-lock.yaml",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/objects/**",
+    ".vscode"
+  ],
+  "cSpell.words": [
+    "antfu",
+    "tailwindcss"
+  ]
+}
