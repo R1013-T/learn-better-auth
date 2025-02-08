@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Passkey from '~/components/passkey'
 import { ThemeSwitcher } from '~/components/theme-switcher'
 import SignUpButton from '~/features/auth/sign-up-button'
 
@@ -11,6 +12,7 @@ export default function Home() {
       <main className="row-start-2 flex flex-col items-center gap-8 sm:items-start">
         <SignUpButton />
         <ThemeSwitcher />
+        <Passkey />
       </main>
       <footer className="row-start-3 flex flex-wrap items-center justify-center gap-6">
         <ul>
